@@ -1,0 +1,435 @@
+ /* lato */
+ @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/* kurale */
+ @import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+
+ /* font-family: 'Lato', sans-serif; */
+ /* font-family: 'Poppins', sans-serif; */
+ /* font-family: 'Kurale', serif; */
+
+
+ /* <i class="fa-regular fa-magnifying-glass"></i> */
+
+ * {
+       box-sizing: border-box;
+ }
+
+
+body {
+      padding: 0;
+      margin: 0;
+      font-family: 'Kurale', serif;
+      }
+
+.color_ {
+      color: rgb(0, 0, 154);
+}
+
+
+.color_:hover {
+      color: rgb(101, 101, 245);
+      cursor: pointer;
+} 
+
+.color__ {
+      color: rgb(0, 0, 154);
+}
+
+.color__:hover {
+      color: rgb(101, 101, 245);
+      cursor: pointer;
+} 
+
+.G2img {
+            width: 90px;
+            height: 60px;
+}
+
+
+.chamkilaimg{
+      position: absolute;
+      bottom: 20px;
+      right: 10px;
+      position: fixed;
+      z-index: 1;
+      width: 100px;
+      height: 100px;
+}
+
+
+.aadhaarimg {
+      width: 100px;
+      height: 80px;
+      }
+
+nav {
+      background: linear-gradient(119.54deg, #000046 0%, #1CB5E0 100%);
+      color: white;
+      width: 100%;
+      }
+
+nav ul {
+      list-style: none;
+}
+
+nav ul li {
+      padding-right: 15px;
+      padding-top: 10px;
+}
+
+.cimg {
+      width: 100%;
+      height: 470px;
+      object-fit: cover;
+      background-size: cover;
+}
+
+.colline {  
+      background-color: rgb(198, 132, 84);
+      border-radius: 10px;
+      width: 100%;
+      height: 7px;
+}
+
+.RMhover span{
+      color: blue;
+}
+
+.RMhover span:hover{
+      color: #000068;
+      cursor: pointer;
+}
+
+.midaadhaarimg{
+      width: 50px;
+      height: 30px;
+}
+
+.borderflex{
+      display: grid;
+      grid-template-columns: auto auto;
+}
+
+.vl{
+      border-left: 1px solid rgb(176, 176, 176)  ;
+      height: 150px;
+}
+
+.vll{
+      border-left: 1px solid rgb(176, 176, 176)  ;
+      height: 180px;
+}
+
+.midaadhaarimgg{
+      border: 1px solid black;
+      margin: 10px 0;
+      width: 60px;
+      height: 60px;
+}
+
+
+.footerimg {
+     width: 100%;
+     height: 70vh;
+}
+
+  .footerimg {
+      position: relative;
+  }
+  
+  .image-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(119.54deg,rgba(0,0,70,.8),rgba(28,181,224,.8)); /* Dark blue color with 70% opacity */
+      pointer-events: none; /* Allows interaction with the content beneath */
+  }
+  
+  .overlay-content {
+      position: absolute;
+      top: 20px;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      color: white; /* Text color for your content */
+      font-size: 20px; /* Adjust the font size as needed */
+  }
+  
+
+  .footerborder{
+      border: 1px solid white;
+      width: 60%;
+      height: 7vh;
+  }
+
+  .footerborderr{
+      border: 1px solid white;
+      width: 70%;
+      height: 7vh;
+  }
+
+  .footerborderr:hover {
+      background-color: gray;
+      cursor: pointer;
+  }
+  
+  .iconn:hover{
+      color: gray;
+      cursor: pointer;
+  }
+
+  
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+  }
+  
+  /* Style the hamburger menu icon */
+  .menu-toggle {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+  }
+  
+  .bar {
+      width: 30px;
+      height: 3px;
+      background-color: #fff;
+      margin: 3px 0;
+      transition: 0.4s;
+  }
+  
+  /* Style the navigation links */
+  .nav-links {
+      list-style: none;
+      display: flex;
+  }
+  
+  .nav-links li {
+      margin-right: 20px;
+  }
+  
+  .nav-links a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: color 0.3s;
+  }
+  
+  /* Style the content area */
+  .content {
+      padding: 20px;
+  }
+  
+  .navv :hover{
+      color: rgb(101, 101, 245);
+      cursor: pointer;
+  }
+
+  .navvv:hover{
+      color: rgb(101, 101, 245);
+      cursor: pointer;
+  }
+
+  .lastborder{ 
+      width: 100%;
+      background: linear-gradient(119.54deg,rgba(0,0,70,.8),rgba(28,181,224,.8));
+      color: rgba(73, 73, 118, 0.8);
+  }
+  
+  
+  
+      /* --------------------------- media querie ------------------------ */
+
+      @media (width <=768px) {
+            .main_header {
+                  display: none;
+            }
+      }
+
+      @media (width <=990px) {
+            .G2flex {
+                  flex-direction: column;
+            }
+      }
+
+      @media (width <=430px) {
+            .uidai img {
+                  width: 90%;
+                  height: 90%;
+                  ;
+            }
+      }
+
+      @media (width <=430px) {
+            .G2flex img {
+                  width: 80%;
+                  height: 80%;
+                  ;
+            }
+      }
+
+      @media (width <=668px) {
+            .cimg {
+                  height: 400px;
+            }
+      }
+
+      @media (width <=590px) {
+            .cimg {
+                  height: 300px;
+            }
+      }
+
+      @media (width <=430px) {
+            .cimg {
+                  height: 250px;
+            }
+      }
+
+      @media (width <=300px) {
+            .cimg {
+                  height: 200px;
+            }
+      }
+
+  @media (width <= 1194px) {
+      .vl{
+            border-left: 1px solid rgb(176, 176, 176)  ;
+            height: 190px;
+      }
+  }
+
+  @media (width <= 992px) {
+      .vl{
+            border-left: 1px solid rgb(176, 176, 176)  ;
+            height: 200px;
+      }
+  }
+
+  @media (width <= 493px) {
+      .vl{
+            border-left: 1px solid rgb(176, 176, 176)  ;
+            height: 220px;
+      }
+  }
+
+  @media (width <= 367px) {
+      .vl{
+            border-left: 1px solid rgb(176, 176, 176)  ;
+            height: 260px;
+      }
+  }
+
+  @media (width <= 352px) {
+      .vl{
+            border-left: 1px solid rgb(176, 176, 176)  ;
+            height: 280px;
+      }
+  }
+
+
+
+  @media (width <= 1194px) {
+      .vll{
+            border-left: 1px solid rgb(176, 176, 176)  ;
+            height: 200px;
+      }
+  }
+
+  @media (width <= 992px) {
+      .vll{
+            border-left: 1px solid rgb(176, 176, 176)  ;
+            height: 210px;
+      }
+  }
+
+  @media (width <= 493px) {
+      .vll{
+            border-left: 1px solid rgb(176, 176, 176)  ;
+            height: 230px;
+      }
+  }
+
+  @media (width <= 345px) {
+      .vll{
+            border-left: 1px solid rgb(176, 176, 176)  ;
+            height: 370px;
+      }
+  }
+
+
+  @media (width <= 1200px) {
+      .footerimg {
+            width: 100%;
+            height: 90vh;
+       }
+  }
+  
+  @media (width <= 770px) {
+      .footerimg {
+            width: 100%;
+            height: 125vh;
+       }
+  }
+
+
+  /* Media query for responsive design */
+  @media screen and (max-width: 867px) {
+      .menu-toggle {
+          display: flex;
+      }
+  
+      .nav-links {
+          display: none;
+          flex-direction: column;
+          background: linear-gradient(119.54deg,rgba(0,0,70,.8),rgba(28,181,224,.8));
+          position: absolute;
+          top: 60px;
+          left: 0;
+          width: 100%;
+          text-align: center;
+          z-index: 1;
+      }
+  
+      .nav-links.active {
+          display: flex;
+      }
+  
+      .nav-links li {
+          margin: 10px 0;
+      }
+  
+      .content {
+          padding-top: 60px;
+      }
+  
+      /* Rotate the bars and slide-in animation for the menu */
+      #menu-toggle.active .bar:nth-child(1) {
+          transform: translateY(6px) rotate(45deg);
+      }
+  
+      #menu-toggle.active .bar:nth-child(2) {
+          opacity: 0;
+      }
+  
+      #menu-toggle.active .bar:nth-child(3) {
+          transform: translateY(-6px) rotate(-45deg);
+      }
+  }
+  
+  @media (width <= 1000px) {
+      .navnone{
+            display: none;
+      }
+  }
